@@ -1,0 +1,15 @@
+/workspaces/CSharp_GithubCodespaceLearning/test1/bin/Debug/net7.0/MyProject
+/workspaces/CSharp_GithubCodespaceLearning/test1/bin/Debug/net7.0/MyProject.deps.json
+/workspaces/CSharp_GithubCodespaceLearning/test1/bin/Debug/net7.0/MyProject.runtimeconfig.json
+/workspaces/CSharp_GithubCodespaceLearning/test1/bin/Debug/net7.0/MyProject.dll
+/workspaces/CSharp_GithubCodespaceLearning/test1/bin/Debug/net7.0/MyProject.pdb
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.csproj.AssemblyReference.cache
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.AssemblyInfoInputs.cache
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.AssemblyInfo.cs
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.csproj.CoreCompileInputs.cache
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.dll
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/refint/MyProject.dll
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.pdb
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/MyProject.genruntimeconfig.cache
+/workspaces/CSharp_GithubCodespaceLearning/test1/obj/Debug/net7.0/ref/MyProject.dll
