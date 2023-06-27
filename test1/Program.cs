@@ -4,11 +4,14 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Threading;
 
+using System.Text.RegularExpressions;
+
+
 class Program {
     static void Main(string[] args) {
         Console.WriteLine("Starting");
-        HTTPDodwnload ht = new HTTPDodwnload("https://example.com/");
-
+        HTTPDodwnload ht = new HTTPDodwnload("https://github.com/");
+        System.Console.WriteLine(ht.changeDir("/test.txt"));
         //Console.WriteLine(ht.changeDir("/e/1.txt"));
         //Console.WriteLine(ht.getFile());
     }
@@ -22,7 +25,7 @@ class Program {
             }else{
                 this.url = url + "/";
             }
-            Console.WriteLine(this.url);
+            //Console.WriteLine(this.url);
         }
 
     public string getFile(){
@@ -38,12 +41,21 @@ class Program {
         return responseBody;
     }
 
-    public string changeDir(string relativePath){
+    public string changeDir(string relativePath){ 
+        //Console.WriteLine(relativePath);
+        if(Uri.IsWellFormedUriString(relativePath, UriKind.Absolute)){
+            //System.Console.WriteLine(111111);
+            return relativePath;
+        }
         Uri baseUri = new Uri(url);
         Uri absoluteUri = new Uri(baseUri, relativePath);
         string absolutePath = absoluteUri.AbsoluteUri;
         return absolutePath;
-
     }
+
+    public List<string> getFullInfo(string text){
+        Regex regex = new Regex("(?:src|href)=\\['\\\"](.*?)\\['\\\"]"); // 【 (?:src|href)=["'](.*?)["']】
+    }
+
     }
 }
