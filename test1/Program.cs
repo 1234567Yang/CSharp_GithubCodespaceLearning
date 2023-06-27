@@ -10,8 +10,15 @@ using System.Text.RegularExpressions;
 class Program {
     static void Main(string[] args) {
         Console.WriteLine("Starting");
-        HTTPDodwnload ht = new HTTPDodwnload("https://github.com/");
-        System.Console.WriteLine(ht.changeDir("/test.txt"));
+        HTTPDodwnload ht = new HTTPDodwnload("https://google.com/");
+        //System.Console.WriteLine(ht.changeDir("/test.txt"));
+
+        List<string> LTest = ht.getFullInfo(ht.getFile());
+
+        foreach(var single in LTest){
+            System.Console.WriteLine(single);
+        }
+
         //Console.WriteLine(ht.changeDir("/e/1.txt"));
         //Console.WriteLine(ht.getFile());
     }
@@ -54,7 +61,22 @@ class Program {
     }
 
     public List<string> getFullInfo(string text){
-        Regex regex = new Regex("(?:src|href)=\\['\\\"](.*?)\\['\\\"]"); // 【 (?:src|href)=["'](.*?)["']】
+        // System.Console.WriteLine(text);
+        List<string> allMatch = new List<string>();
+
+        System.Console.WriteLine("(?:src|href)=['\"](.*?)['\"]");
+        
+
+        Regex regex = new Regex("(?:src|href)=['\"](.*?)['\"]"); // 【 (?:src|href)=["'](.*?)["']】
+        MatchCollection matchCollection = regex.Matches(text);
+        //List<string> allMatch = new List<string>(regex.Count(text));
+
+
+        foreach(Match single_match in matchCollection){
+            allMatch.Add(single_match.Value);
+        }
+
+        return allMatch;
     }
 
     }
