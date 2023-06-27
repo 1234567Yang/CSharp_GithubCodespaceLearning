@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -11,16 +11,16 @@ class Program {
     static void Main(string[] args) {
         Console.WriteLine("Starting");
         HTTPDodwnload ht = new HTTPDodwnload("https://google.com/");
-        //System.Console.WriteLine(ht.changeDir("/test.txt"));
+        string file = ht.getFile();
+        List<string> regexResult = ht.getFullInfo(file);
+        ht.changeHTMLFile(ref file,regexResult);
 
-        List<string> LTest = ht.getFullInfo(ht.getFile());
-
-        foreach(var single in LTest){
-            System.Console.WriteLine(single);
+        try{
+            File.WriteAllText("result.html",file);
+        }catch(Exception ex){
+            Console.WriteLine(ex.Message);
         }
 
-        //Console.WriteLine(ht.changeDir("/e/1.txt"));
-        //Console.WriteLine(ht.getFile());
     }
 
     class HTTPDodwnload{
@@ -64,10 +64,10 @@ class Program {
         // System.Console.WriteLine(text);
         List<string> allMatch = new List<string>();
 
-        System.Console.WriteLine("(?:src|href)=['\"](.*?)['\"]");
+        System.Console.WriteLine(" (?:src|href)=['\"](.*?)['\"]");
         
 
-        Regex regex = new Regex("(?:src|href)=['\"](.*?)['\"]"); // 【 (?:src|href)=["'](.*?)["']】
+        Regex regex = new Regex(" (?:src|href)=['\"](.*?)['\"]"); // 【 (?:src|href)=["'](.*?)["']】记得前面有个空格～提高准确率
         MatchCollection matchCollection = regex.Matches(text);
         //List<string> allMatch = new List<string>(regex.Count(text));
 
@@ -77,6 +77,14 @@ class Program {
         }
 
         return allMatch;
+    }
+
+    public void changeHTMLFile(ref string theFile, List<string> RegexResult){
+        Regex regex = new Regex("[\"'](.*?)[\"']"); //["'](.*?)["']
+        foreach(var single_result in RegexResult){
+            //["'](.*?)["']
+            theFile = theFile.Replace(regex.Match(single_result).Value, changeDir(regex.Match(single_result).Value));
+        }
     }
 
     }
