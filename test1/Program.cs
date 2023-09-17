@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 class Program {
     static void Main(string[] args) {
         Console.WriteLine("Starting");
-        HTTPDodwnload ht = new HTTPDodwnload("https://google.com/");
+        HTTPDodwnload ht = new HTTPDodwnload("https://baidu.com/");
         string file = ht.getFile();
         List<string> regexResult = ht.getFullInfo(file);
         ht.changeHTMLFile(ref file,regexResult);

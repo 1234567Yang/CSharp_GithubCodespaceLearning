@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v4gkRZdgw6/AN492L2g4PFoke7/RR25mrx1dy2LpuqnVEaeScLfSnRT5Ldojhtmi22+kEgxXk/DPG+lZGfLOoA==",
+  "success": true,
+  "projectFilePath": "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/root/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/CSharp_GithubCodespaceLearning/test1/MyProject.csproj": {}
+    "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj": {}
   },
   "projects": {
-    "/workspaces/CSharp_GithubCodespaceLearning/test1/MyProject.csproj": {
+    "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CSharp_GithubCodespaceLearning/test1/MyProject.csproj",
-        "projectName": "MyProject",
-        "projectPath": "/workspaces/CSharp_GithubCodespaceLearning/test1/MyProject.csproj",
+        "projectUniqueName": "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj",
+        "projectName": "test2",
+        "projectPath": "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/workspaces/CSharp_GithubCodespaceLearning/test1/obj/",
+        "outputPath": "/workspaces/CSharp_GithubCodespaceLearning/test2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
