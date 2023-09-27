@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "v4gkRZdgw6/AN492L2g4PFoke7/RR25mrx1dy2LpuqnVEaeScLfSnRT5Ldojhtmi22+kEgxXk/DPG+lZGfLOoA==",
+  "dgSpecHash": "nL35ac7frFy7WcrznM/7+km/UJDTRTlmG7rZsW+9cln8oZIpoafVP0MWHFwBx7uIu2ntFgTmun0ydW0jGxxr0w==",
   "success": true,
   "projectFilePath": "/workspaces/CSharp_GithubCodespaceLearning/test2/test2.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "/root/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512"
+    "/root/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/7.0.9/microsoft.netcore.app.runtime.linux-x64.7.0.9.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/7.0.9/microsoft.aspnetcore.app.runtime.linux-x64.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

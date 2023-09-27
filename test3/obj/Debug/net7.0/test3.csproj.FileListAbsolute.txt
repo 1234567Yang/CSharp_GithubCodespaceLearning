@@ -1,0 +1,15 @@
+/workspaces/CSharp_GithubCodespaceLearning/test3/bin/Debug/net7.0/test3
+/workspaces/CSharp_GithubCodespaceLearning/test3/bin/Debug/net7.0/test3.deps.json
+/workspaces/CSharp_GithubCodespaceLearning/test3/bin/Debug/net7.0/test3.runtimeconfig.json
+/workspaces/CSharp_GithubCodespaceLearning/test3/bin/Debug/net7.0/test3.dll
+/workspaces/CSharp_GithubCodespaceLearning/test3/bin/Debug/net7.0/test3.pdb
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.csproj.AssemblyReference.cache
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.AssemblyInfoInputs.cache
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.AssemblyInfo.cs
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.csproj.CoreCompileInputs.cache
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.dll
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/refint/test3.dll
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.pdb
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/test3.genruntimeconfig.cache
+/workspaces/CSharp_GithubCodespaceLearning/test3/obj/Debug/net7.0/ref/test3.dll

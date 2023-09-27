@@ -19,3 +19,13 @@
 /workspaces/CSharp_GithubCodespaceLearning/test2/obj/Debug/net7.0/test2.pdb
 /workspaces/CSharp_GithubCodespaceLearning/test2/obj/Debug/net7.0/test2.genruntimeconfig.cache
 /workspaces/CSharp_GithubCodespaceLearning/test2/obj/Debug/net7.0/ref/test2.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/test2
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/test2.deps.json
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/test2.runtimeconfig.json
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/test2.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/test2.pdb
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/Microsoft.Win32.SystemEvents.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/System.Drawing.Common.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/workspaces/CSharp_GithubCodespaceLearning/test2/23456/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
